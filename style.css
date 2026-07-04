@@ -57,7 +57,7 @@ body.dark-mode {
 }
 
 .topbar {
-  position: relative;
+  position: static;
   z-index: 10001;
 }
 
