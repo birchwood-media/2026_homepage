@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>birkh</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="media/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="media/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="media/favicon-16x16.png">
+<link rel="manifest" href="media/site.webmanifest">
+  <style>
+    @font-face {
+      font-family: "Creato Display";
+      src: url("font/CreatoDisplay-Regular.otf") format("opentype");
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Creato Display", sans-serif;
+      background: white;
+      color: black;
+      padding: 40px;
+      line-height: 1.6;
+    }
+
+    main {
+      max-width: 760px;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      font-weight: normal;
+      margin-bottom: 24px;
+    }
+
+    p {
+      margin-bottom: 18px;
+    }
+
+    ul {
+      list-style: none;
+      margin-bottom: 32px;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 14px;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: underline;
+    }
+
+    .note {
+      opacity: 0.8;
+      font-size: 0.95rem;
+      margin-top: 30px;
+    }
+  </style>
+
+<script>
+  (function () {
+    var params = new URLSearchParams(window.location.search);
+    var forceSimple = params.get("simple") === "1";
+
+    if (forceSimple) return;
+
+    var supportsModern =
+      !!window.localStorage &&
+      !!document.querySelector &&
+      !!document.documentElement.classList &&
+      !!window.addEventListener &&
+      !!window.requestAnimationFrame &&
+      !!document.createElement("iframe");
+
+    if (supportsModern) {
+      window.location.replace("app.html");
+    }
+  })();
+</script>
+
+</head>
+<body>
+  <main>
+    <h1>birkh</h1>
+
+    <p>Hallo Internetmensch!</p>
+    <p>Du befindest dich auf der einfachen Version dieser Website.</p>
+
+    <ul>
+      <li><a href="welcome.html">Willkommen</a></li>
+      <li><a href="allvideos.html">Alle Videos</a></li>
+      <li><a href="about.html">Über mich</a></li>
+      <li><a href="impressum.html">Impressum</a></li>
+    </ul>
+
+    <p class="note">
+      Wenn dein Browser moderne Funktionen unterstützt, wird normalerweise automatisch die interaktive Version geladen.
+    </p>
+
+    <p class="note">
+      Falls das nicht klappt, kannst du sie auch direkt hier öffnen:
+      <a href="app.html">interaktive Version</a>
+    </p>
+  </main>
+</body>
+</html>

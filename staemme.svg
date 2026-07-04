@@ -1,0 +1,1053 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   sodipodi:docname="staemme.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="0.66198543"
+     inkscape:cx="750.77181"
+     inkscape:cy="376.14121"
+     inkscape:window-width="1366"
+     inkscape:window-height="700"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer7"
+     showguides="true"
+     inkscape:export-bgcolor="#ffffff00">
+    <sodipodi:guide
+       position="549.30514,112.51836"
+       orientation="0,-1"
+       id="guide5"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="1673.7533,838.57531"
+       orientation="1,0"
+       id="guide6"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="1891.9058,275.12033"
+       orientation="1,0"
+       id="guide7"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="1030.6737,777.34822"
+       orientation="0,-1"
+       id="guide22"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="1091.0282,469.2351"
+       orientation="0,-1"
+       id="guide23"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="powerstroke"
+       message=""
+       id="path-effect9"
+       is_visible="true"
+       lpeversion="1.3"
+       scale_width="1"
+       interpolator_type="CubicBezierJohan"
+       interpolator_beta="0.2"
+       start_linecap_type="zerowidth"
+       end_linecap_type="zerowidth"
+       offset_points="0,17.5"
+       linejoin_type="extrp_arc"
+       miter_limit="4"
+       not_jump="false"
+       sort_points="true" />
+    <inkscape:path-effect
+       effect="powerstroke"
+       message=""
+       id="path-effect36"
+       is_visible="true"
+       lpeversion="1.3"
+       scale_width="1"
+       interpolator_type="CubicBezierJohan"
+       interpolator_beta="0.2"
+       start_linecap_type="zerowidth"
+       end_linecap_type="zerowidth"
+       offset_points="0,117.24232"
+       linejoin_type="extrp_arc"
+       miter_limit="4"
+       not_jump="false"
+       sort_points="true" />
+    <inkscape:path-effect
+       effect="powerstroke"
+       message=""
+       id="path-effect34"
+       is_visible="true"
+       lpeversion="1.3"
+       scale_width="1"
+       interpolator_type="CubicBezierJohan"
+       interpolator_beta="0.2"
+       start_linecap_type="zerowidth"
+       end_linecap_type="zerowidth"
+       offset_points="0,117.24232"
+       linejoin_type="extrp_arc"
+       miter_limit="4"
+       not_jump="false"
+       sort_points="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect33"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="powerstroke"
+       message=""
+       id="path-effect12"
+       is_visible="true"
+       lpeversion="1.3"
+       scale_width="1"
+       interpolator_type="CubicBezierJohan"
+       interpolator_beta="0.2"
+       start_linecap_type="zerowidth"
+       end_linecap_type="zerowidth"
+       offset_points="0,50"
+       linejoin_type="extrp_arc"
+       miter_limit="4"
+       not_jump="false"
+       sort_points="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect10"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="powerstroke"
+       message=""
+       id="path-effect8"
+       is_visible="true"
+       lpeversion="1.3"
+       scale_width="1"
+       interpolator_type="CubicBezierJohan"
+       interpolator_beta="0.2"
+       start_linecap_type="zerowidth"
+       end_linecap_type="zerowidth"
+       offset_points="0,50"
+       linejoin_type="extrp_arc"
+       miter_limit="4"
+       not_jump="false"
+       sort_points="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect7"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="fill_between_many"
+       method="bsplinespiro"
+       autoreverse="false"
+       close="false"
+       join="false"
+       linkedpaths="#path33,0,1"
+       id="path-effect35" />
+    <inkscape:path-effect
+       effect="fill_between_many"
+       method="bsplinespiro"
+       autoreverse="false"
+       close="false"
+       join="false"
+       linkedpaths="#path35,0,1"
+       id="path-effect37" />
+    <inkscape:path-effect
+       effect="fill_between_many"
+       method="bsplinespiro"
+       autoreverse="false"
+       close="false"
+       join="false"
+       linkedpaths="#path9,0,1"
+       id="path-effect11" />
+  </defs>
+  <g
+     inkscape:label="mitte-diy"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:none">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:70;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:70, 70;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 431.22539,234.7428 V 858.1163"
+       id="path1"
+       sodipodi:nodetypes="cc" />
+    <g
+       id="g3"
+       transform="translate(-117.61369)">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+         d="M 674.61683,234.7428 V 858.1163"
+         id="path2"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+         d="M 715.34125,234.7428 V 858.1163"
+         id="path3"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:70;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 757.04427,234.7428 c 0,0 -60,100.17855 -60,155.84338 0,55.66483 60,100.17854 60,155.84337 0,55.66483 -60,100.17854 -60,155.84337 0,55.66483 60,155.84338 60,155.84338"
+       id="path4"
+       sodipodi:nodetypes="csssc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:70;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 291.63942,234.7428 V 858.1163"
+       id="path5"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:70;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 898.85794,234.7428 V 858.1163"
+       id="path6"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;fill-rule:nonzero;stroke:none;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 1232.7759,291.38339 c 0,0 -50,0 -50,0 0,124.70394 50,498.81575 50,623.51969 0,-124.70394 50,-498.81575 50,-623.51969 z"
+       id="path7"
+       inkscape:path-effect="#path-effect7;#path-effect8"
+       inkscape:original-d="m 1232.7759,291.38339 c 0,207.83989 0,415.67979 0,623.51969"
+       transform="matrix(1,0,0,1.003268,-224.14107,-53.893384)" />
+    <path
+       style="fill:#000000;fill-rule:nonzero;stroke:none;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 1232.7759,291.38339 c 0,0 -50,0 -50,0 0,124.70394 50,498.81575 50,623.51969 0,-124.70394 50,-498.81575 50,-623.51969 z"
+       id="path8"
+       inkscape:path-effect="#path-effect10;#path-effect12"
+       inkscape:original-d="m 1232.7759,291.38339 c 0,207.83989 0,415.67979 0,623.51969"
+       transform="matrix(-1,0,0,-1.003268,2297.7777,1156.3352)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="mitte-everything"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:453.648px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:121.513;paint-order:markers stroke fill"
+       x="1121.6898"
+       y="602.26031"
+       id="text19"
+       inkscape:label="ziggzagg"><tspan
+         sodipodi:role="line"
+         id="tspan19"
+         x="1121.6898"
+         y="602.26031"
+         style="stroke-width:121.513">⧙</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:285.039px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:76.3496;paint-order:markers stroke fill"
+       x="1044.5555"
+       y="553.74445"
+       id="text20"
+       inkscape:label="4 strichel"><tspan
+         sodipodi:role="line"
+         id="tspan20"
+         x="1044.5555"
+         y="553.74445"
+         style="stroke-width:76.3496">┋</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:288.134px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:77.1791;paint-order:markers stroke fill"
+       x="964.77191"
+       y="554.42651"
+       id="text21"
+       inkscape:label="6 punkt"><tspan
+         sodipodi:role="line"
+         id="tspan21"
+         x="964.77191"
+         y="554.42651"
+         style="stroke-width:77.1791">⸽</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:264.462px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:70.8381;paint-order:markers stroke fill"
+       x="882.60541"
+       y="523.74371"
+       id="text22"
+       inkscape:label="komischewelle"><tspan
+         sodipodi:role="line"
+         id="tspan22"
+         x="882.60541"
+         y="523.74371"
+         style="stroke-width:70.8381">⸾</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:229.825px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:61.5603;paint-order:markers stroke fill"
+       x="726.08722"
+       y="598.80664"
+       id="text23"
+       inkscape:label="i"><tspan
+         sodipodi:role="line"
+         id="tspan23"
+         x="726.08722"
+         y="598.80664"
+         style="stroke-width:61.5603">⫯</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:404.342px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:108.306;paint-order:markers stroke fill"
+       x="784.89557"
+       y="601.72644"
+       id="text24"
+       inkscape:label="R"><tspan
+         sodipodi:role="line"
+         id="tspan24"
+         x="784.89557"
+         y="601.72644"
+         style="stroke-width:108.306">⧵</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:260.318px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:69.728;paint-order:markers stroke fill"
+       x="-571.82373"
+       y="544.78815"
+       id="text25"
+       transform="scale(-1,1)"
+       inkscape:label="B"><tspan
+         sodipodi:role="line"
+         id="tspan25"
+         x="-571.82373"
+         y="544.78815"
+         style="stroke-width:69.728">▌</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:449.799px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:120.482;paint-order:markers stroke fill"
+       x="1216.1735"
+       y="608.89209"
+       id="text26"
+       inkscape:label="t"><tspan
+         sodipodi:role="line"
+         id="tspan26"
+         x="1216.1735"
+         y="608.89209"
+         style="stroke-width:120.482">⫮</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:316.583px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:84.7984;paint-order:markers stroke fill"
+       x="1290.756"
+       y="551.33496"
+       id="text27"
+       inkscape:label="Lücke"><tspan
+         sodipodi:role="line"
+         id="tspan27"
+         x="1290.756"
+         y="551.33496"
+         style="stroke-width:84.7984">¦</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="mitte-unicode-readymade"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:662.416px;line-height:0px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:177.433;paint-order:markers stroke fill"
+       x="291.26913"
+       y="-868.89935"
+       id="text10"
+       transform="matrix(0,0.90063729,-1.1103249,0,0,0)"
+       inkscape:label="Beule"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         x="291.26913"
+         y="-868.89935"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Creato Display';-inkscape-font-specification:'Creato Display';stroke-width:177.433">⪮</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:721.451px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:193.246;paint-order:markers stroke fill"
+       x="-35.791378"
+       y="-1495.7246"
+       id="text11"
+       transform="rotate(105)"
+       inkscape:label="Rennen"
+       inkscape:export-filename="favicon.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan11"
+         x="-35.791378"
+         y="-1495.7246"
+         style="stroke-width:193.246">⹏</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:662.416px;line-height:0px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:177.433;paint-order:markers stroke fill"
+       x="542.95544"
+       y="-21.933123"
+       id="text12"
+       transform="matrix(0,0.90063729,-1.1103249,0,0,0)"
+       inkscape:label="Doppelwelle"><tspan
+         sodipodi:role="line"
+         id="tspan12"
+         x="625.75745"
+         y="-21.933123"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Creato Display';-inkscape-font-specification:'Creato Display';stroke-width:177.433">⩰ </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:662.416px;line-height:0px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:177.433;paint-order:markers stroke fill"
+       x="832.05457"
+       y="-1180.6492"
+       id="text13"
+       transform="matrix(0,0.90063729,-1.1103249,0,0,0)"
+       inkscape:label="WellePunkt"><tspan
+         sodipodi:role="line"
+         id="tspan13"
+         x="832.05457"
+         y="-1180.6492"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Creato Display';-inkscape-font-specification:'Creato Display';stroke-width:177.433">⩭</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:662.416px;line-height:0px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:177.433;paint-order:markers stroke fill"
+       x="777.63586"
+       y="-537.83765"
+       id="text14"
+       transform="matrix(0,0.90063729,-1.1103249,0,0,0)"
+       inkscape:label="Punkt"><tspan
+         sodipodi:role="line"
+         id="tspan14"
+         x="777.63586"
+         y="-537.83765"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Creato Display';-inkscape-font-specification:'Creato Display';stroke-width:177.433" /><tspan
+         sodipodi:role="line"
+         x="777.63586"
+         y="-537.83765"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Creato Display';-inkscape-font-specification:'Creato Display';stroke-width:177.433"
+         id="tspan15">⩧</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:662.416px;line-height:0px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:177.433;paint-order:markers stroke fill"
+       x="257.25748"
+       y="-444.03683"
+       id="text17"
+       transform="matrix(0,0.90063729,-1.1103249,0,0,0)"
+       inkscape:label="SIS"><tspan
+         sodipodi:role="line"
+         id="tspan16"
+         x="257.25748"
+         y="-444.03683"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Creato Display';-inkscape-font-specification:'Creato Display';stroke-width:177.433" /><tspan
+         sodipodi:role="line"
+         x="257.25748"
+         y="-444.03683"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Creato Display';-inkscape-font-specification:'Creato Display';stroke-width:177.433"
+         id="tspan17">⩬</tspan></text>
+    <g
+       id="g10"
+       inkscape:label="cursor"
+       inkscape:export-filename="cursor-plain.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         d="m -214.16529,286.29644 h 5.01302 l 22.23957,22.23957 -4.55729,9.11458 -22.23957,22.23958 h -5.01302 v -7.20052 h -27.84504 v -30.07811 l 4.55729,-9.11458 h 24.24478 z m -0.91146,19.96093 h -27.84504 v 22.78645 h 27.84504 v 7.20052 l 18.59374,-18.59375 -18.59374,-18.59374 z"
+         id="text5"
+         style="font-weight:bold;font-size:93.3333px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Bold';text-align:center;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:33;paint-order:markers stroke fill"
+         transform="rotate(-113.85616)"
+         aria-label="➮"
+         sodipodi:nodetypes="cccccccccccccccccccc" />
+      <path
+         d="m -215.07675,306.25737 h -27.84504 v 22.78645 h 27.84504 v 7.20052 l 18.59374,-18.59375 -18.59374,-18.59374 z"
+         id="path10"
+         style="font-weight:bold;font-size:93.3333px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Bold';text-align:center;word-spacing:0px;text-anchor:middle;display:inline;fill:#ffffff;fill-opacity:1;stroke-width:33;paint-order:markers stroke fill"
+         transform="rotate(-113.85616)"
+         aria-label="➮"
+         sodipodi:nodetypes="cccccccc" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="experiment-logo-1"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:527.236px;line-height:0px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:141.224;paint-order:markers stroke fill"
+       x="564.75623"
+       y="-767.0849"
+       id="text10-0"
+       transform="matrix(0,0.90063729,-1.1103249,0,0,0)"
+       inkscape:label="Beule"><tspan
+         sodipodi:role="line"
+         id="tspan10-3"
+         x="0"
+         y="0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Creato Display';-inkscape-font-specification:'Creato Display';stroke-width:141.224">⪮</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:336.619px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Heavy';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:72.1328;paint-order:markers stroke fill"
+       x="1093.5532"
+       y="601.86304"
+       id="text30"
+       inkscape:label="lücke"><tspan
+         sodipodi:role="line"
+         id="tspan30"
+         x="1093.5532"
+         y="601.86304"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:336.619px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Bold';stroke-width:72.1328">¦</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:446.803px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Heavy';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:95.7435;paint-order:markers stroke fill"
+       x="1049.177"
+       y="662.45532"
+       id="text31"
+       inkscape:label="t"><tspan
+         sodipodi:role="line"
+         id="tspan31"
+         x="1049.177"
+         y="662.45532"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Medium';stroke-width:95.7435">⫮</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:262.45px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:70.2992;paint-order:markers stroke fill"
+       x="895.74829"
+       y="582.02234"
+       id="text22-3"
+       inkscape:label="komischewelle"><tspan
+         sodipodi:role="line"
+         id="tspan22-2"
+         x="0"
+         y="0"
+         style="stroke-width:70.2992">⸾</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:404.269px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:142.938;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       x="536.02905"
+       y="948.77094"
+       id="text40"
+       inkscape:label="Bstich"
+       transform="scale(1.5648711,0.63903027)"><tspan
+         sodipodi:role="line"
+         id="tspan40"
+         x="536.02905"
+         y="948.77094"
+         style="fill:#000000;stroke-width:142.938">│</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:282.207px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:99.7805;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       x="1184.0977"
+       y="549.16693"
+       id="text41"
+       inkscape:label="dots"><tspan
+         sodipodi:role="line"
+         id="tspan41"
+         x="0"
+         y="0"
+         style="stroke-width:99.7805">⸽</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:222.598px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Medium Italic';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:78.7051;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       x="1213.6683"
+       y="478.10187"
+       id="text42"
+       inkscape:label="stripes"
+       transform="scale(0.78145543,1.2796635)"><tspan
+         sodipodi:role="line"
+         id="tspan42"
+         x="1213.6683"
+         y="478.10187"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Medium';stroke-width:78.7051">┋</tspan></text>
+    <g
+       id="g49"
+       transform="matrix(0.65997042,0,0,0.65997042,172.65878,201.56198)"
+       inkscape:label="R-holes"
+       style="display:none">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:93.3333px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Medium';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:33;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="1248.0591"
+         y="348.29602"
+         id="text46"><tspan
+           sodipodi:role="line"
+           id="tspan46"
+           x="1248.0591"
+           y="348.29602">◥</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:93.3333px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Medium';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:33;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="-1248.0775"
+         y="-228.52368"
+         id="text48"
+         transform="scale(-1)"><tspan
+           sodipodi:role="line"
+           id="tspan48"
+           x="-1248.0775"
+           y="-228.52368">◥</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:93.3333px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Medium';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:33;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="1248.0591"
+         y="540.99341"
+         id="text50"><tspan
+           sodipodi:role="line"
+           id="tspan50"
+           x="1248.0591"
+           y="540.99341">◥</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:93.3333px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Medium';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:33;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="-1248.0775"
+         y="-421.22119"
+         id="text51"
+         transform="scale(-1)"><tspan
+           sodipodi:role="line"
+           id="tspan51"
+           x="-1248.0775"
+           y="-421.22119">◥</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:93.3333px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Medium';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:33;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="1248.0591"
+         y="645.19684"
+         id="text52"><tspan
+           sodipodi:role="line"
+           id="tspan52"
+           x="1248.0591"
+           y="645.19684">◥</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:93.3333px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Medium';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:33;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="-1248.0775"
+         y="-525.42462"
+         id="text53"
+         transform="scale(-1)"><tspan
+           sodipodi:role="line"
+           id="tspan53"
+           x="-1248.0775"
+           y="-525.42462">◥</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:93.3333px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Medium';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:33;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="-1248.0775"
+         y="-643.89398"
+         id="text54"
+         transform="scale(-1)"><tspan
+           sodipodi:role="line"
+           id="tspan54"
+           x="-1248.0775"
+           y="-643.89398">◥</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:93.3333px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Medium';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:33;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="1248.0591"
+         y="278.59622"
+         id="text55"><tspan
+           sodipodi:role="line"
+           id="tspan55"
+           x="1248.0591"
+           y="278.59622">◥</tspan></text>
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:50.0022;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect55"
+         width="627.75562"
+         height="106.75327"
+         x="906.26508"
+         y="132.80788" />
+    </g>
+    <g
+       id="g65"
+       transform="matrix(0.65997042,0,0,0.65997042,172.65878,201.56198)"
+       inkscape:label="R-whole">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:72.3688px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Medium';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:25.5876;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="1254.8282"
+         y="334.82471"
+         id="text58"><tspan
+           sodipodi:role="line"
+           id="tspan58"
+           x="1254.8282"
+           y="334.82471"
+           style="stroke-width:25.5876">◥</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:76.6692px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Medium';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:27.1081;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="-1253.2057"
+         y="-419.17072"
+         id="text61"
+         transform="scale(-1)"><tspan
+           sodipodi:role="line"
+           id="tspan61"
+           x="-1253.2057"
+           y="-419.17072"
+           style="stroke-width:27.1081">◥</tspan></text>
+      <rect
+         style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:77.0077;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect66"
+         width="58.064316"
+         height="243.24066"
+         x="1223.954"
+         y="468.07776"
+         inkscape:label="Rbum" />
+      <rect
+         style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:58.1916;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect67"
+         width="56.423317"
+         height="142.93475"
+         x="1227.236"
+         y="147.43393"
+         inkscape:label="Rbum" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:453.648px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:121.513;paint-order:markers stroke fill"
+       x="898.3291"
+       y="658.20288"
+       id="text19-3"
+       inkscape:label="ziggzagg"><tspan
+         sodipodi:role="line"
+         id="tspan19-5"
+         x="898.3291"
+         y="658.20288"
+         style="stroke-width:121.513">⧙</tspan></text>
+    <rect
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:50.0022;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect65"
+       width="627.75562"
+       height="106.75327"
+       x="906.26508"
+       y="132.80788"
+       inkscape:label="white"
+       transform="matrix(0.65997042,0,0,0.65997042,172.65878,201.56198)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6-1"
+     inkscape:label="experiment-logo-2"
+     style="display:none"
+     transform="translate(-38.76692,52.78875)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:336.619px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Heavy';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:72.1328;paint-order:markers stroke fill"
+       x="1146.6685"
+       y="492.1636"
+       id="text30-0"
+       inkscape:label="lücke"><tspan
+         sodipodi:role="line"
+         id="tspan30-9"
+         x="0"
+         y="0"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:336.619px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Bold';stroke-width:72.1328">¦</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:262.45px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:70.2992;paint-order:markers stroke fill"
+       x="895.74829"
+       y="582.02234"
+       id="text22-3-0"
+       inkscape:label="komischewelle"><tspan
+         sodipodi:role="line"
+         id="tspan22-2-6"
+         x="0"
+         y="0"
+         style="stroke-width:70.2992">⸾</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:404.269px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:142.938;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       x="543.13202"
+       y="777.10547"
+       id="text40-2"
+       inkscape:label="Bstich"
+       transform="scale(1.5648711,0.63903027)"><tspan
+         sodipodi:role="line"
+         id="tspan40-6"
+         x="543.13202"
+         y="777.10547"
+         style="fill:#000000;stroke-width:142.938">│</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:282.207px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:99.7805;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       x="1184.0977"
+       y="549.16693"
+       id="text41-1"
+       inkscape:label="dots"><tspan
+         sodipodi:role="line"
+         id="tspan41-8"
+         x="0"
+         y="0"
+         style="stroke-width:99.7805">⸽</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:222.598px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Medium Italic';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:78.7051;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       x="1238.1294"
+       y="392.37665"
+       id="text42-7"
+       inkscape:label="stripes"
+       transform="scale(0.78145543,1.2796635)"><tspan
+         sodipodi:role="line"
+         id="tspan42-9"
+         x="1238.1294"
+         y="392.37665"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Medium';stroke-width:78.7051">┋</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:453.648px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:121.513;paint-order:markers stroke fill"
+       x="909.44434"
+       y="548.50348"
+       id="text19-3-0"
+       inkscape:label="ziggzagg"><tspan
+         sodipodi:role="line"
+         id="tspan19-5-3"
+         x="909.44434"
+         y="548.50348"
+         style="stroke-width:121.513">⧙</tspan></text>
+    <rect
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:33;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect65-6"
+       width="414.30014"
+       height="70.454002"
+       x="781.88214"
+       y="179.51183"
+       inkscape:label="white" />
+    <path
+       style="font-size:662.416px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display';text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:138.586;paint-order:markers stroke fill"
+       d="m 1045.0552,331.90616 c 0,-12.32633 -3.7787,-23.37752 -11.3361,-33.15358 -7.5575,-9.351 -14.695,-14.45155 -21.4127,-15.30163 v -33.79114 c 19.0335,1.70019 33.8684,10.41363 44.5048,26.14031 10.9163,16.15174 16.3744,35.2788 16.3744,57.38117 0,11.47624 -2.2393,22.95246 -6.7178,34.4287 l -28.9701,74.59552 c -4.7583,11.90128 -7.1374,22.52743 -7.1374,31.87843 0,14.0265 2.799,25.92778 8.3971,35.70384 5.8779,9.77605 13.5753,14.66408 23.0921,14.66408 v 33.79113 c -20.1532,0 -35.268,-8.50091 -45.3446,-25.50275 -9.7966,-16.57677 -14.6949,-36.3414 -14.6949,-59.29387 0,-16.57677 3.6387,-33.79113 10.9162,-51.64304 l 26.451,-62.48173 c 3.9186,-9.77604 5.878,-18.91453 5.878,-27.41544 z"
+       id="text12-2"
+       inkscape:label="S"
+       aria-label="⩰ "
+       sodipodi:nodetypes="sccccsccsccccsccs" />
+    <path
+       style="display:inline;fill:#000000;fill-rule:nonzero;stroke:none;stroke-width:33;paint-order:markers stroke fill"
+       d="m 1090.1809,674.49653 c 0,0 17.5,0 17.5,0 0,-62.30601 -17.5,-249.22406 -17.5,-311.53007 0,62.30601 -17.5,249.22406 -17.5,311.53007 z"
+       id="path9"
+       inkscape:path-effect="#path-effect9"
+       inkscape:original-d="M 1090.1809,674.49653 V 362.96646"
+       inkscape:linked-fill="path11"
+       transform="translate(3.1152428,-109.69942)"
+       inkscape:label="dreieck" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="experiment-logo-3"
+     style="display:inline">
+    <path
+       style="font-size:615.843px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display';text-align:center;word-spacing:0px;text-anchor:middle;display:inline;stroke-width:118.017;paint-order:markers stroke fill"
+       d="m 782.85842,454.35207 c -0.52127,-10.57677 -2.73645,-19.49598 -6.64561,-26.75763 -5.60321,-8.8403 -12.83519,-15.62838 -21.69597,-20.36424 -8.86079,-4.26228 -19.2853,-6.70913 -31.27346,-7.34059 v -97.55883 h 32.83718 v 62.98702 c 7.4274,1.89434 14.46393,5.20944 21.10955,9.94531 11.85782,8.52456 21.04444,19.65384 27.55971,33.38785 6.64568,14.04974 9.96848,29.20451 9.96848,45.46431 0,16.25982 -3.3228,31.41458 -9.96848,45.46432 -6.51527,13.57615 -15.70189,24.70543 -27.55971,33.38784 -6.25469,4.42015 -13.29129,7.73526 -21.10955,9.94533 v 62.98701 h -32.83718 v -97.32204 c 11.85783,-0.63145 22.28234,-3.07831 31.27346,-7.34059 8.73052,-4.73587 15.96242,-11.52394 21.69597,-20.36423 3.90916,-7.10379 6.12434,-15.94407 6.64561,-26.52084 z"
+       id="text10-0-2"
+       inkscape:label="Beule"
+       aria-label="⪮"
+       sodipodi:nodetypes="cccccccccsccccccccc"
+       inkscape:export-filename="media/stamm-1.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="font-weight:500;font-size:278.521px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Medium';text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:98.4782;paint-order:markers stroke fill"
+       d="m 864.63373,350.87532 v -56.84657 h 43.51891 v 56.84657 z m 0,243.97786 v -56.84657 h 43.51891 v 56.84657 z m 0,-162.65191 V 375.3547 h 43.51891 v 56.84657 z m 0,81.32596 v -56.84657 h 43.51891 v 56.84657 z"
+       id="text42-7-6"
+       inkscape:label="stripes"
+       transform="scale(0.97778061,1.0227243)"
+       aria-label="┋"
+       inkscape:export-filename="media/stamm-2.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="font-size:662.416px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display';text-align:center;word-spacing:0px;text-anchor:middle;display:inline;stroke-width:138.586;paint-order:markers stroke fill"
+       d="m 966.2883,384.69491 c 0,-12.32633 -3.7787,-23.37752 -11.3361,-33.15358 -7.5575,-9.351 -14.695,-14.45155 -21.4127,-15.30163 v -33.79114 c 19.0335,1.70019 33.8684,10.41363 44.5048,26.14031 10.9163,16.15174 16.3744,35.2788 16.3744,57.38117 0,11.47624 -2.2393,22.95246 -6.7178,34.4287 l -28.9701,74.59552 c -4.7583,11.90128 -7.1374,22.52743 -7.1374,31.87843 0,14.0265 2.799,25.92778 8.3971,35.70384 5.8779,9.77605 13.5753,14.66408 23.0921,14.66408 v 33.79113 c -20.1532,0 -35.268,-8.50091 -45.3446,-25.50275 -9.7966,-16.57677 -14.6949,-36.3414 -14.6949,-59.29387 0,-16.57677 3.6387,-33.79113 10.9162,-51.64304 l 26.451,-62.48173 c 3.9186,-9.77604 5.878,-18.91453 5.878,-27.41544 z"
+       id="text12-2-2"
+       inkscape:label="S"
+       aria-label="⩰ "
+       sodipodi:nodetypes="sccccsccsccccsccs"
+       inkscape:export-filename="media/stamm-3.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="font-weight:bold;font-size:279.622px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Bold';text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:74.8988;paint-order:markers stroke fill"
+       d="m 1255.7365,530.83904 h -37.749 l -34.3935,-27.12334 34.3935,-26.84371 -34.3935,-27.12334 34.3935,-26.84371 -34.3935,-27.12333 34.3935,-27.12334 -34.3935,-26.84371 34.3935,-27.12334 -34.3935,-26.84371 34.3935,-27.12334 h 37.749 l -34.3935,27.12334 34.3935,26.84371 -34.3935,27.12334 34.3935,26.84371 -34.3935,27.12334 34.3935,27.12333 -34.3935,26.84371 34.3935,27.12334 -34.3935,26.84371 z"
+       id="text19-3-0-4"
+       inkscape:label="ziggzagg"
+       transform="scale(0.86423939,1.1570868)"
+       aria-label="⧙"
+       inkscape:export-filename="media/stamm-4.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="font-weight:bold;font-size:326.142px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Bold';text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:69.8877;paint-order:markers stroke fill"
+       d="M 1128.9701,630.55542 V 494.22807 h -33.5926 v 136.32735 z m 0,-182.63952 V 311.58855 h -33.5926 V 447.9159 Z"
+       id="text30-0-8"
+       inkscape:label="lücke"
+       transform="scale(1.0321244,0.96887545)"
+       aria-label="¦"
+       inkscape:export-filename="media/stamm-5.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="tree"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:259.432px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:778.295;paint-order:markers stroke fill"
+       x="1028.1631"
+       y="543.29474"
+       id="text29"><tspan
+         sodipodi:role="line"
+         id="tspan29"
+         x="1028.1631"
+         y="543.29474"
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Heavy';fill:#000000;stroke-width:778.295"
+         dx="178.69672 -70.395775 -134.29321 -43.320438"
+         dy="0 0 0 0 -21.442522">ˎ▌⁄╱⸾</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="ecken"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:93.3333px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Ultra-Bold';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:20;paint-order:markers stroke fill"
+       x="88.943703"
+       y="1035.3472"
+       id="text2"
+       inkscape:label="impressum"><tspan
+         id="tspan2"
+         x="88.943703"
+         y="1035.3472"
+         sodipodi:role="line">§</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:93.3333px;line-height:0px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;text-align:end;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:none;stroke:#000000;stroke-width:20;paint-order:markers stroke fill"
+       x="1893.8379"
+       y="1036.5563"
+       id="text1"><tspan
+         id="tspan1"
+         x="1893.8379"
+         y="1036.5563"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:93.3333px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Ultra-Bold';word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         dx="0"
+         dy="0"
+         rotate="0 0 0 0 0 0"
+         sodipodi:role="line">birkh</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:85.3333px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Ultra-Bold';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:20;paint-order:markers stroke fill"
+       x="1783.2965"
+       y="111.89183"
+       id="text3"
+       inkscape:label="daynight"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         x="1783.2965"
+         y="111.89183"
+         style="font-size:85.3333px">✸➫⃝</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:93.3333px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Ultra-Bold';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:20;paint-order:markers stroke fill"
+       x="931.46796"
+       y="1038.4943"
+       id="text4"
+       inkscape:label="videoctl"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         x="931.46796"
+         y="1038.4943"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeSerif;-inkscape-font-specification:FreeSerif">⏮ ▶ ⏸ ⏭ ⏹       ⏏ ℹ 🔃︎</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.3333px;line-height:0px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:20;paint-order:markers stroke fill"
+       x="177.36777"
+       y="87.883125"
+       id="text8"
+       inkscape:label="smili"><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         x="177.36777"
+         y="87.883125" /><tspan
+         sodipodi:role="line"
+         x="177.36777"
+         y="87.883125"
+         id="tspan9"
+         style="font-size:74.6667px">(◕‿◕)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40.5094px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:121.528;paint-order:markers stroke fill"
+       x="1782.0555"
+       y="160.11545"
+       id="text28"
+       inkscape:label="gradient"><tspan
+         sodipodi:role="line"
+         id="tspan28"
+         x="0"
+         y="0"
+         style="font-size:40.5094px;stroke-width:121.528">░░░▒▒▓█</tspan></text>
+    <g
+       id="g57"
+       inkscape:label="leftys"
+       style="display:inline">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:93.3333px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Medium';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:33;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="104.78346"
+         y="633.22388"
+         id="text43"
+         inkscape:label="ii"><tspan
+           sodipodi:role="line"
+           id="tspan43"
+           x="104.78346"
+           y="633.22388">⩴</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:128.702px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Medium';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:45.5053;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="102.64711"
+         y="497.00699"
+         id="text44"
+         inkscape:label="ecke"><tspan
+           sodipodi:role="line"
+           id="tspan44"
+           x="102.64711"
+           y="497.00699"
+           style="stroke-width:45.5053">⦜</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:93.3333px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Medium';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:33;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="94.959976"
+         y="559.80298"
+         id="text45"
+         inkscape:label="winkel"><tspan
+           sodipodi:role="line"
+           id="tspan45"
+           x="94.959976"
+           y="559.80298">⦤</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:85.814px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Medium';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:30.3413;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="104.81782"
+         y="399.61945"
+         id="text56"
+         transform="scale(0.98279162,1.0175097)"
+         inkscape:label="kreis"><tspan
+           sodipodi:role="line"
+           id="tspan56"
+           x="104.81782"
+           y="399.61945"
+           style="fill:#000000;stroke-width:30.3413">◴</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:93.3333px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Medium';text-align:center;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:33;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="100.32037"
+         y="318.57458"
+         id="text57"
+         inkscape:label="drei"><tspan
+           sodipodi:role="line"
+           id="tspan57"
+           x="100.32037"
+           y="318.57458">◭</tspan></text>
+    </g>
+  </g>
+</svg>

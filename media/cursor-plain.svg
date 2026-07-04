@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="57.56189"
+   height="56.95433"
+   viewBox="0 0 57.56189 56.95433"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer5"
+     style="display:inline"
+     transform="translate(-346.42627,-46.158669)">
+    <g
+       id="g10">
+      <path
+         d="m -214.16529,286.29644 h 5.01302 l 22.23957,22.23957 -4.55729,9.11458 -22.23957,22.23958 h -5.01302 v -7.20052 h -27.84504 v -30.07811 l 4.55729,-9.11458 h 24.24478 z m -0.91146,19.96093 h -27.84504 v 22.78645 h 27.84504 v 7.20052 l 18.59374,-18.59375 -18.59374,-18.59374 z"
+         id="text5"
+         style="font-weight:bold;font-size:93.3333px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Bold';text-align:center;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:33;paint-order:markers stroke fill"
+         transform="rotate(-113.85616)"
+         aria-label="➮" />
+      <path
+         d="m -215.07675,306.25737 h -27.84504 v 22.78645 h 27.84504 v 7.20052 l 18.59374,-18.59375 -18.59374,-18.59374 z"
+         id="path10"
+         style="font-weight:bold;font-size:93.3333px;line-height:0px;font-family:'Creato Display';-inkscape-font-specification:'Creato Display Bold';text-align:center;word-spacing:0px;text-anchor:middle;display:inline;fill:#ffffff;fill-opacity:1;stroke-width:33;paint-order:markers stroke fill"
+         transform="rotate(-113.85616)"
+         aria-label="➮" />
+    </g>
+  </g>
+</svg>

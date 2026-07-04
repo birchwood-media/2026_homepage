@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <script>
+    (function() {
+      const theme = localStorage.getItem("theme");
+      if (theme === "dark") {
+        document.documentElement.classList.add("dark-mode");
+      }
+    })();
+    </script>
+
+  <title>alle videos</title>
+  
+  <link rel="stylesheet" href="subpage.css">
+</head>
+<body>
+
+  <div id="videoViewer" class="video-viewer hidden"></div>
+  <div id="videosContainer" class="videos-grid">
+    <p></p>
+  </div>
+
+  <script src="videos.js"></script>
+</body>
+</html>

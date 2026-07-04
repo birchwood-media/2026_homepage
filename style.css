@@ -1,0 +1,505 @@
+/* Font einbinden */
+@font-face {
+  font-family: "Creato Display";
+  src: url("font/CreatoDisplay-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  color-scheme: light dark;
+
+  --bg: white;
+  --fg: black;
+
+  /* Fensterfüllung */
+  --window-fill: rgba(255, 255, 255, 0.18);
+
+  /* Blur-Layer mit leichtem Aufhellen */
+  --blur-fill: rgba(255, 255, 255, 1);
+
+  --shadow: none;
+}
+
+body.dark-mode {
+  --bg: black;
+  --fg: white;
+
+  /* Fensterfüllung */
+  --window-fill: rgba(0, 0, 0, 1);
+
+  /* Blur-Layer mit leichtem Abdunkeln */
+  --blur-fill: rgba(0, 0, 0, 0.30);
+
+  --shadow: none;
+}
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: "Creato Display", sans-serif;
+  position: relative;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+body.dark-mode {
+  cursor: url("media/cursor-dark.svg"), auto;
+}
+
+.topbar {
+  position: relative;
+  z-index: 10001;
+}
+
+#overlayFrame {  
+  width: 100%;  
+  height: 100%;  
+  border: none;  
+  display: block;  
+  background: black; /* Hier fest auf schwarz setzen */
+  opacity: 0;  
+  transition: opacity 0.12s ease;  
+}  
+
+
+/* Allgemeine Positionierung */
+.welcome,
+.allvideos-link,
+.darkmode,
+.name,
+.Datenschutzerklärung {
+  position: absolute;
+ 
+z-index: 10001;
+}
+
+.middle {
+  position: absolute;
+  z-index: 1;
+}
+
+/* oben links */
+.welcome {
+  top: 30px;
+  left: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.allvideos-link {
+  position: absolute;
+  left: 30px;
+  top: 70px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* oben rechts */
+.darkmode {
+  top: 30px;
+  right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* obere symbole */
+.darkmode .icons {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+/* gradient */
+.darkmode .gradient {
+  font-size: 0.45rem;
+  text-align: justify;
+  line-height: 2;
+}
+
+/* unten rechts */
+.name {
+  bottom: 30px;
+  right: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* unten links */
+.Datenschutzerklärung {
+  bottom: 30px;
+  left: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Mitte */
+.middle {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* SVG Stämme */
+.stamm {
+  width: 60px;
+  height: 10rem;
+  display: block;
+  color: black;
+  cursor: pointer;
+  transition:
+    color 0.3s ease,
+    transform 0.2s ease,
+    opacity 0.2s ease;
+}
+
+body.dark-mode .stamm {
+  color: white;
+}
+
+.stamm:hover {
+  transform: translateY(-2px);
+}
+
+.stamm:active {
+  transform: translateY(0px) scale(0.98);
+}
+
+.stamm path {
+  fill: currentColor;
+  transition: fill 0.3s ease;
+}
+
+/* Fensterartiges Overlay */
+.window-overlay {
+  position: fixed;
+  inset: 0;
+  display: none;
+  z-index: 9999;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.window-overlay.active {
+  display: flex;
+}
+
+.blur-layer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background: var(--blur-fill);
+  opacity: 1;
+}
+
+.window-overlay.opening .blur-layer {
+  animation: blurIn 180ms ease-out forwards;
+}
+
+.window-overlay.closing .blur-layer {
+  animation: blurOut 150ms ease-in forwards;
+}
+
+.window-frame {
+  position: relative;
+  z-index: 2;
+  width: min(82vw, 1400px);
+  height: min(84vh, 900px);
+  background: var(--window-fill);
+  border: 1px solid currentColor;
+  display: flex;
+  flex-direction: column;
+  pointer-events: auto;
+  box-shadow: var(--shadow);
+  transform-origin: center center;
+}
+
+.window-frame.opening {
+  animation: windowOpen 180ms ease-out forwards;
+}
+
+.window-frame.closing {
+  animation: windowClose 150ms ease-in forwards;
+}
+
+.window-bar {
+  height: 42px;
+  min-height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 14px;
+  border-bottom: 1px solid currentColor;
+  background: transparent;
+}
+
+.window-title {
+  font-family: inherit;
+  font-size: 1rem;
+  color: inherit;
+  cursor: pointer;
+}
+
+.close-overlay {
+  background: transparent;
+  border: none;
+  color: inherit;
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 0;
+}
+
+.window-content {
+  flex: 1;
+  min-height: 0;
+  background: transparent;
+}
+
+#overlayFrame {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+  background: transparent;
+  opacity: 0;
+  transition: opacity 0.12s ease;
+  pointer-events: auto;
+}
+
+#overlayFrame.ready {
+  opacity: 1;
+}
+
+/*----------- ANIMATIONS -----------*/
+@keyframes windowOpen {
+  0% {
+    opacity: 0;
+    transform: scale(0.97) translateY(8px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes windowClose {
+  0% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.98) translateY(6px);
+  }
+}
+
+@keyframes blurIn {
+  0% {
+    opacity: 0;
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+  }
+  100% {
+    opacity: 1;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+}
+
+@keyframes blurOut {
+  0% {
+    opacity: 1;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+  100% {
+    opacity: 0;
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+  }
+}
+
+.window-frame.switching {
+  animation: windowSwitch 220ms ease;
+}
+
+@keyframes windowSwitch {
+  0% {
+    transform: scale(1);
+  }
+  35% {
+    transform: scale(1.012);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* ---------------- RESPONSIVE LAYOUT ---------------- */
+
+@media (max-width: 900px), (orientation: portrait) {
+  .topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 64px;
+    padding: 0 14px;
+    display: grid;
+    grid-template-columns: auto auto 1fr auto auto;
+    align-items: center;
+    gap: 14px;
+    z-index: 10001;
+    background: var(--bg);
+    color: var(--fg);
+    border-bottom: 1px solid currentColor;
+  }
+
+  .welcome,
+  .allvideos-link,
+  .name,
+  .darkmode,
+  .Datenschutzerklärung {
+    position: static;
+  }
+
+  .welcome,
+  .allvideos-link,
+  .name,
+  .Datenschutzerklärung {
+    font-size: 1rem;
+  }
+
+  .allvideos-link {
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+
+  .name {
+    justify-self: center;
+    text-align: center;
+  }
+
+  .darkmode {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-self: end;
+  }
+
+  .darkmode .icons {
+    font-size: 0.95rem;
+    line-height: 1;
+  }
+
+  .darkmode .gradient {
+    font-size: 0.38rem;
+    line-height: 1.7;
+  }
+
+  .middle {
+    top: calc(50% + 24px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 10px;
+    width: min(92vw, 700px);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .stamm {
+    width: auto;
+    height: clamp(120px, 22vh, 180px);
+    flex: 0 0 auto;
+  }
+
+
+  .window-overlay {
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 64px;
+  }
+
+  .window-frame {
+    width: 100vw;
+    height: calc(100vh - 64px);
+    max-width: none;
+    max-height: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+  }
+
+  .window-bar {
+    min-height: 42px;
+  }
+}
+
+
+@media (max-width: 560px) {
+  .topbar {
+    height: 58px;
+    padding: 0 10px;
+    gap: 10px;
+  }
+
+  .welcome,
+  .name,
+  .Datenschutzerklärung {
+    font-size: 0.9rem;
+  }
+
+  .allvideos-link {
+    font-size: 1.3rem;
+  }
+
+  .darkmode .icons {
+    font-size: 0.85rem;
+  }
+
+  .darkmode .gradient {
+    font-size: 0.32rem;
+  }
+
+@media (max-width: 560px) {
+  .middle {
+    gap: 8px;
+    width: 95vw;
+  }
+
+  .stamm {
+    width: auto;
+    height: clamp(90px, 18vh, 140px);
+  }
+}
+
+  .window-overlay {
+    padding-top: 58px;
+  }
+
+  .window-frame {
+    height: calc(100vh - 58px);
+  }
+}
