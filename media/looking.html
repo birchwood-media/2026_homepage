@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Augen folgen Maus</title>
+
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%}
+body{background:#f2f2f2;overflow:hidden;font-family:sans-serif}
+.scene{min-height:100vh;display:grid;place-items:center;padding:24px}
+.portrait{position:relative;width:481px;height:169px}
+.eye-layer{position:absolute;inset:0;overflow:hidden;z-index:1}
+.face{position:relative;display:block;width:481px;height:169px;z-index:3;pointer-events:none;user-select:none}
+.eyeball{position:absolute;width:158px;height:144px;user-select:none;pointer-events:none;will-change:transform}
+.eyeball-left{left:55px;top:-2px}
+.eyeball-right{left:256px;top:0}
+.eye-hit{position:absolute;z-index:4;background:transparent;border:none;padding:0;margin:0;cursor:pointer}
+.eye-hit-left{left:88px;top:50px;width:90px;height:45px}
+.eye-hit-right{left:288px;top:48px;width:92px;height:48px}
+</style>
+</head>
+
+<body>
+<div class="scene">
+<div class="portrait" id="portrait">
+
+<div class="eye-layer">
+<img class="eyeball eyeball-left" id="eyeLeft" src="augeball.png" alt="">
+<img class="eyeball eyeball-right" id="eyeRight" src="augeball.png" alt="">
+</div>
+
+<img class="face" id="faceMask" src="auge-cutout-normal.png" alt="Augenpartie">
+
+<button class="eye-hit eye-hit-left" id="hitLeft" aria-label="Linkes Auge"></button>
+<button class="eye-hit eye-hit-right" id="hitRight" aria-label="Rechtes Auge"></button>
+
+</div>
+</div>
+
+<audio id="soundBlink" src="blink.mp3" preload="auto"></audio>
+<audio id="soundSquash" src="squashing.mp3" preload="auto"></audio>
+<audio id="soundDizzy" src="dizzy-dial.mp3" preload="auto"></audio>
+
+<script>
+const portrait=document.getElementById("portrait");
+const eyeLeft=document.getElementById("eyeLeft");
+const eyeRight=document.getElementById("eyeRight");
+const faceMask=document.getElementById("faceMask");
+const hitLeft=document.getElementById("hitLeft");
+const hitRight=document.getElementById("hitRight");
+
+const soundBlink=document.getElementById("soundBlink");
+const soundDizzy=document.getElementById("soundDizzy");
+const soundSquash=document.getElementById("soundSquash");
+
+const masks={
+normal:"auge-cutout-normal.png",
+up:"auge-cutout-oben.png",
+down:"auge-cutout-unten.png",
+blink:"auge-cutout-blinzeln.png",
+squintLeft:"auge-cutout-zwinkern-links.png",
+squintRight:"auge-cutout-zwinkern-rechts.png"
+};
+
+const centers={
+left:{x:133,y:70},
+right:{x:334,y:72}
+};
+
+const limits={
+left:{x:20,y:20},
+right:{x:20,y:20}
+};
+
+let currentMouse={x:window.innerWidth/2,y:window.innerHeight/2};
+
+let isBlinking=false;
+let isSquintLeft=false;
+let isSquintRight=false;
+let isDizzy=false;
+
+let lastAngle=null;
+let spinStress=0;
+let lastMouseTime=performance.now();
+
+let scrollStress=0;
+let lastScrollTime=performance.now();
+
+function playSound(audio,{restart=true,volume=1}={}){
+if(!audio)return;
+audio.volume=volume;
+if(restart){try{audio.currentTime=0}catch(e){}}
+const playPromise=audio.play();
+if(playPromise&&typeof playPromise.catch==="function"){
+playPromise.catch(()=>{});
+}
+}
+
+function stopSound(audio){
+if(!audio)return;
+audio.pause();
+try{audio.currentTime=0}catch(e){}
+}
+
+function setEyes(leftX,leftY,rightX=leftX,rightY=leftY){
+eyeLeft.style.transform=`translate(${leftX}px,${leftY}px)`;
+eyeRight.style.transform=`translate(${rightX}px,${rightY}px)`;
+}
+
+function wait(ms){
+return new Promise(resolve=>setTimeout(resolve,ms));
+}
+
+function updateEyes(mouseX,mouseY){
+if(isDizzy)return;
+
+const rect=portrait.getBoundingClientRect();
+
+const leftData=getEyeMovement(centers.left,limits.left,rect,mouseX,mouseY);
+const rightData=getEyeMovement(centers.right,limits.right,rect,mouseX,mouseY);
+
+eyeLeft.style.transform=`translate(${leftData.moveX}px,${leftData.moveY}px)`;
+eyeRight.style.transform=`translate(${rightData.moveX}px,${rightData.moveY}px)`;
+
+updateMask((leftData.dirY+rightData.dirY)/2);
+updateSpinStress(rect,mouseX,mouseY);
+}
+
+function getEyeMovement(eyeCenter,limit,rect,mouseX,mouseY){
+const cx=rect.left+eyeCenter.x;
+const cy=rect.top+eyeCenter.y;
+
+let dx=mouseX-cx;
+let dy=mouseY-cy;
+
+const distance=Math.hypot(dx,dy)||1;
+
+const dirX=dx/distance;
+const dirY=dy/distance;
+
+return{
+dirX,
+dirY,
+moveX:dirX*limit.x,
+moveY:dirY*limit.y
+};
+}
+
+function setMask(src){
+if(!faceMask.src.includes(src)){
+faceMask.src=src;
+}
+}
+
+function updateMask(avgDirY){
+if(isDizzy)return;
+
+if(isBlinking){setMask(masks.blink);return;}
+if(isSquintLeft){setMask(masks.squintLeft);return;}
+if(isSquintRight){setMask(masks.squintRight);return;}
+
+if(avgDirY<-0.6){setMask(masks.up);return;}
+if(avgDirY>0.6){setMask(masks.down);return;}
+
+setMask(masks.normal);
+}
+
+function refresh(){
+updateEyes(currentMouse.x,currentMouse.y);
+}
+
+function blinkOnce(){
+if(isBlinking||isSquintLeft||isSquintRight||isDizzy)return;
+
+isBlinking=true;
+setMask(masks.blink);
+playSound(soundBlink,{volume:0.9});
+
+const blinkDuration=120+Math.random()*80;
+
+setTimeout(()=>{
+isBlinking=false;
+refresh();
+scheduleNextBlink();
+},blinkDuration);
+}
+
+function scheduleNextBlink(){
+const next=2500+Math.random()*4500;
+setTimeout(blinkOnce,next);
+}
+
+function squintLeftEye(){
+if(isBlinking||isDizzy)return;
+
+isSquintLeft=true;
+playSound(soundSquash,{volume:0.85});
+refresh();
+
+setTimeout(()=>{
+isSquintLeft=false;
+refresh();
+},700);
+}
+
+function squintRightEye(){
+if(isBlinking||isDizzy)return;
+
+isSquintRight=true;
+playSound(soundSquash,{volume:0.85});
+refresh();
+
+setTimeout(()=>{
+isSquintRight=false;
+refresh();
+},700);
+}
+
+function updateSpinStress(rect,mouseX,mouseY){
+const cx=rect.left+(centers.left.x+centers.right.x)/2;
+const cy=rect.top+(centers.left.y+centers.right.y)/2;
+
+const dx=mouseX-cx;
+const dy=mouseY-cy;
+
+const angle=Math.atan2(dy,dx);
+const now=performance.now();
+const dt=now-lastMouseTime;
+lastMouseTime=now;
+
+if(lastAngle!==null&&dt<120){
+let diff=angle-lastAngle;
+
+while(diff>Math.PI)diff-=Math.PI*2;
+while(diff<-Math.PI)diff+=Math.PI*2;
+
+spinStress+=Math.abs(diff)*2.2;
+}
+
+lastAngle=angle;
+spinStress*=0.965;
+
+if(spinStress>20&&!isDizzy){
+triggerDizzy("spin");
+}
+}
+
+function updateScrollStress(deltaY){
+const now=performance.now();
+const dt=now-lastScrollTime;
+lastScrollTime=now;
+
+if(dt<140){
+scrollStress+=Math.abs(deltaY)*0.01;
+}
+
+scrollStress*=0.94;
+
+if(scrollStress>18&&!isDizzy){
+triggerDizzy("scroll");
+}
+}
+
+async function triggerDizzy(reason){
+if(isDizzy)return;
+
+isDizzy=true;
+isBlinking=false;
+isSquintLeft=false;
+isSquintRight=false;
+
+spinStress=0;
+scrollStress=0;
+lastAngle=null;
+
+playSound(soundDizzy,{volume:0.85});
+
+const start=performance.now();
+const duration=3000;
+const rotations=4;
+const radius=14;
+
+await new Promise(resolve=>{
+function animate(now){
+const elapsed=now-start;
+const t=Math.min(elapsed/duration,1);
+
+const angle=t*rotations*Math.PI*2;
+
+const dx=Math.cos(angle)*radius;
+const dy=Math.sin(angle)*radius;
+
+setEyes(dx,dy,dx,dy);
+setMask(masks.normal);
+
+if(t<1){
+requestAnimationFrame(animate);
+}else{
+resolve();
+}
+}
+
+requestAnimationFrame(animate);
+});
+
+playSound(soundSquash,{volume:0});
+setEyes(9,0,-9,0);
+setMask(masks.normal);
+await wait(280);
+
+setMask(masks.blink);
+playSound(soundBlink,{volume:0.95});
+await wait(160);
+
+setEyes(0,0,0,0);
+setMask(masks.normal);
+await wait(100);
+
+stopSound(soundDizzy);
+
+isDizzy=false;
+refresh();
+}
+
+window.addEventListener("mousemove",(event)=>{
+currentMouse.x=event.clientX;
+currentMouse.y=event.clientY;
+updateEyes(currentMouse.x,currentMouse.y);
+});
+
+window.addEventListener("touchmove",(event)=>{
+const touch=event.touches[0];
+if(!touch)return;
+currentMouse.x=touch.clientX;
+currentMouse.y=touch.clientY;
+updateEyes(currentMouse.x,currentMouse.y);
+},{passive:true});
+
+window.addEventListener("wheel",(event)=>{
+updateScrollStress(event.deltaY);
+},{passive:true});
+
+hitLeft.addEventListener("click",squintLeftEye);
+hitRight.addEventListener("click",squintRightEye);
+
+window.addEventListener("load",()=>{
+refresh();
+scheduleNextBlink();
+});
+</script>
+</body>
+</html>
